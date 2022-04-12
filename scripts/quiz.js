@@ -118,7 +118,7 @@ ansEl.addEventListener('animationend', () => {
 });
 
 buttonDone.addEventListener("click", () => {
-    window.location = "http://127.0.0.1:5500/index.html";
+    window.location = "https://bassieee.github.io/test.ficka/";
 });
 
 
