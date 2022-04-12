@@ -111,7 +111,7 @@ startButton.addEventListener("click", () => {
         mistake.innerHTML = "First set all filters &#128520";
         mistake.style.animation = "0.4s mistake";
     } else {
-        window.location = "https://bassieee.github.io/test.ficka/quiz.html";
+        window.location = "https://bassieee.github.io/test.ficka/html/quiz.html";
     }
 });
 
