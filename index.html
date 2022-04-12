@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <script type="module" src="scripts/index.js" defer></script>
+        <title>Ficka, pocket learning</title>
+    </head>
+
+    <body>
+        <div class="filterClass">
+            <button id="refreshFilter">Refresh</button>
+            <button id="generateRandom">Random quiz</button>
+        </div> 
+        <div class="filter-container">
+            <div id="filterContainer">
+                <h3 id="filterHeader">Create your quiz</h3>
+            </div>
+            <select class="selector-top" id="chooseBook">
+                <option value="" disabled selected hidden>Choose book</option>
+            </select>
+            <select class="selector-other" id="chooseChapter">
+                <option value="" disabled selected hidden>Choose chapter</option>
+            </select>
+            <select class="selector-other" id="chooseSection">
+                <option value="" disabled selected hidden>Choose section</option>
+            </select>
+            <p id="mistake"></p>
+            <button id="start">Start</button>
+        </div>
+    </body>
+
+    <footer>
+
+    </footer>
+</html>

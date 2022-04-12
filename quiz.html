@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+        <link rel="stylesheet" href="../style.css" />
+        <script type="module" src="../scripts/quiz.js" defer></script>
+        <title>Ficka, pocket learning</title>
+    </head>
+
+    <body>
+        <div class="skipClass">
+            <button id="skipButton">Skip question</button>
+            <button id="backToFilter">&#8634 back to filter</button>
+            <button id="helpMeButton">Show answer</button>
+        </div> 
+        <div id="questC" class="question-container">
+            <div id="englishC">
+                <h3 id="english"></h3>
+            </div>
+            <div id="modal">
+                <div id="doneContainer">
+                    <p id="textDone">You are done! &#128079 &#128079</p>
+                    <button id="buttonDone">Back to start</button>
+                </div>
+            </div>
+            <input id="swedish" type="text" placeholder="Type the Swedish..." enterkeyhint="Next"><br>
+            <p id="wrongAns">Try again... &#128053</p>
+            <p id="counter"></p>
+            <button id="next">Next</button>
+        </div>
+    </body>
+
+    <footer>
+
+    </footer>
+</html>
