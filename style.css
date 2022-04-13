@@ -304,7 +304,8 @@ input:focus::placeholder {
 }
 
 #buttonDone {
-    margin-top: 4.5%;
+    position: relative;
+    top: 16px;
     height: 40%;
     width: 75%;
     border-style: none;

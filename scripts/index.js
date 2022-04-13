@@ -108,7 +108,7 @@ startButton.addEventListener("click", () => {
     
     if (chooseSection.value === '') {
         mistake.style.visibility = "visible";
-        mistake.innerHTML = "First set all filters &#128520";
+        mistake.innerHTML = "First set filters &#128520";
         mistake.style.animation = "0.4s mistake";
     } else {
         window.location = "https://bassieee.github.io/test.ficka/html/quiz.html";

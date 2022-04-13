@@ -120,9 +120,3 @@ ansEl.addEventListener('animationend', () => {
 buttonDone.addEventListener("click", () => {
     window.location = "https://bassieee.github.io/test.ficka/";
 });
-
-
-
-
-
-
