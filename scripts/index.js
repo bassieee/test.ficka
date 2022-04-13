@@ -5,7 +5,7 @@ import mainArr from "./data.js";
 
 let filterArr = mainArr;
 
-// ---------- filter.html ---------- 
+// ---------- get html elements ---------- 
 
 const refreshFilter = document.getElementById('refreshFilter');
 const chooseBook = document.getElementById('chooseBook');
@@ -13,6 +13,8 @@ const chooseChapter = document.getElementById('chooseChapter');
 const chooseSection = document.getElementById('chooseSection');
 const startButton = document.getElementById('start');
 const mistake = document.getElementById('mistake');
+
+// ---------- top buttons ---------- 
 
 refreshFilter.addEventListener("click", () => {
     location.reload();
@@ -47,7 +49,7 @@ chooseBook.addEventListener("input", () => {
     
     chooseChapter.innerHTML = '';
     chooseChapter.appendChild(el);
-    chooseChapter.firstElementChild.setAttribute("disabled","selected");
+    // add back the attributes here if needed
     
     let quizArrForChapter = filterArr;
     let chaptersArray = [];
@@ -87,7 +89,7 @@ chooseChapter.addEventListener("input", () => {
     
     chooseSection.innerHTML = '';
     chooseSection.appendChild(el);
-    chooseSection.firstElementChild.setAttribute("disabled","selected", "hidden");
+    chooseSection.firstElementChild.setAttribute("disabled","selected");
     
     let quizArrForSection = filterArr;
     let sectionsArray = [];

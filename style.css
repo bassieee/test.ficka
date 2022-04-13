@@ -8,7 +8,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Archivo', arial; 
-    overflow: hidden;
 }
 
 body {
@@ -156,6 +155,10 @@ body {
 
 
 /* ---------- index.html styling ---------- */
+
+#quizBody {
+    overflow: hidden;
+}
 
 .skipClass {
     width: 75%;
