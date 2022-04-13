@@ -18,6 +18,8 @@ refreshFilter.addEventListener("click", () => {
     location.reload();
 });
 
+// ---------- load book options ----------
+
 function chooseB() {
     let quizArrForBook = filterArr;
     
@@ -36,6 +38,8 @@ function chooseB() {
 
 chooseB();
 
+// ---------- set chapter options based on book ----------
+
 chooseBook.addEventListener("input", () => {
     var el = document.createElement("option");
     el.textContent = "Choose chapter";
@@ -43,7 +47,7 @@ chooseBook.addEventListener("input", () => {
     
     chooseChapter.innerHTML = '';
     chooseChapter.appendChild(el);
-    chooseChapter.firstElementChild.setAttribute("disabled","selected", "hidden");
+    chooseChapter.firstElementChild.setAttribute("disabled","selected");
     
     let quizArrForChapter = filterArr;
     let chaptersArray = [];
@@ -65,11 +69,18 @@ chooseBook.addEventListener("input", () => {
     };
 });
 
+// ---------- if book value changes, empty the section value ----------
+
 chooseBook.addEventListener("input", () => {
     chooseSection.value = '';
 });
 
+// ---------- set section options based on chapter ----------
+
 chooseChapter.addEventListener("input", () => {
+    mistake.style.visibility = "hidden";
+    mistake.style.animation = "none";
+    
     var el = document.createElement("option");
     el.textContent = "Choose section";
     el.value = "";
@@ -98,14 +109,18 @@ chooseChapter.addEventListener("input", () => {
     };
 });
 
+// ---------- when section value changes, store the selections ----------
+
 chooseSection.addEventListener("input", () => {
     sessionStorage.setItem('storedBook', chooseBook.value);
     sessionStorage.setItem('storedChapter', chooseChapter.value);
     sessionStorage.setItem('storedSection', chooseSection.value);
 });
 
+// ---------- at click of start, go to next page if selections are not empty ----------
+
 startButton.addEventListener("click", () => {
-    
+
     if (chooseSection.value === '') {
         mistake.style.visibility = "visible";
         mistake.innerHTML = "First set filters &#128520";
@@ -115,12 +130,16 @@ startButton.addEventListener("click", () => {
     }
 });
 
+// ---------- reset error on next action ----------
+
 chooseBook.addEventListener("click", () => {
     mistake.style.visibility = "hidden";
+    mistake.style.animation = "none";
 });
 
 chooseSection.addEventListener("input", () => {
     mistake.style.visibility = "hidden";
+    mistake.style.animation = "none";
 });
 
 
