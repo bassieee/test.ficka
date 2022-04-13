@@ -1,6 +1,4 @@
 
-/* ---------- general styling ---------- */
-
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;800&display=swap');
 
 * {
@@ -8,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Archivo', arial; 
+    overflow: hidden;
 }
 
 body {
@@ -19,145 +18,6 @@ body {
     position: relative;
     top: 10px;
     min-height: 100vh;
-}
-
-/* ---------- filter.html styling ---------- */
-
-.filterClass {
-    width: 75%;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-
-#refreshFilter {
-    padding: 4px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255, 0.5);
-    font-size: 12px;
-    width: 30%;
-}
-
-#refreshFilter:hover {
-    cursor: pointer;
-}
-
-#generateRandom {
-    padding: 4px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255, 0.5);
-    font-size: 12px;
-    margin-right: 10px;
-    width: 30%;
-}
-
-#generateRandom:hover {
-    cursor: pointer;
-}
-
-.filter-container {
-    background-color: white;
-    width: 75%;
-    height: 25em;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    text-align: center;
-    position: relative;
-    display: table;
-    overflow: hidden;
-}
-
-#filterContainer {
-    height: 5rem;
-    position: absolute;
-    width: 100%;
-    display: table;
-}
-
-#filterHeader {
-    font-size: 25px;
-    display: table-cell;
-    vertical-align: middle;  
-}
-
-.selector-top {
-    width: 80%;
-    margin-top: 5rem;
-    border-radius: 10px;
-    border-width: 1px;
-    border-color: rgb(217, 212, 212);
-    height: 50px;
-    text-align: center;
-    font-size: 16px;
-    color: grey;
-}
-
-.selector-other {
-    width: 80%;
-    margin-top: 1rem;
-    border-radius: 10px;
-    border-width: 1px;
-    border-color: rgb(217, 212, 212);
-    height: 50px;
-    text-align: center;
-    font-size: 16px;
-    color: grey;
-}
-
-#mistake {
-    background-color: rgb(236, 203, 203);
-    width: 50%;
-    border-radius: 5px;
-    margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@keyframes mistake {
-    10%, 90% {
-      transform: translate3d(-1px, 0, 0);
-    }
-    
-    20%, 80% {
-      transform: translate3d(2px, 0, 0);
-    }
-  
-    30%, 50%, 70% {
-      transform: translate3d(-4px, 0, 0);
-    }
-  
-    40%, 60% {
-      transform: translate3d(4px, 0, 0);
-    }
-}
-
-#start {
-    width: 100%;
-    background-color: rgb(240, 233, 233);
-    border: 0;
-    padding: 20px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    font-size: 20px;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-#start:hover {
-    background-color: rgb(77, 5, 232);
-    color: white;
-    cursor: pointer;
-}
-
-
-/* ---------- index.html styling ---------- */
-
-#quizBody {
-    overflow: hidden;
 }
 
 .skipClass {

@@ -49,7 +49,6 @@ chooseBook.addEventListener("input", () => {
     
     chooseChapter.innerHTML = '';
     chooseChapter.appendChild(el);
-    // add back the attributes here if needed
     
     let quizArrForChapter = filterArr;
     let chaptersArray = [];
@@ -89,7 +88,6 @@ chooseChapter.addEventListener("input", () => {
     
     chooseSection.innerHTML = '';
     chooseSection.appendChild(el);
-    chooseSection.firstElementChild.setAttribute("disabled","selected");
     
     let quizArrForSection = filterArr;
     let sectionsArray = [];
