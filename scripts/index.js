@@ -46,6 +46,8 @@ chooseBook.addEventListener("input", () => {
     var el = document.createElement("option");
     el.textContent = "Choose chapter";
     el.value = "";
+    el.setAttribute("disabled", "");
+    el.setAttribute("selected", "");
     
     chooseChapter.innerHTML = '';
     chooseChapter.appendChild(el);
@@ -73,7 +75,14 @@ chooseBook.addEventListener("input", () => {
 // ---------- if book value changes, empty the section value ----------
 
 chooseBook.addEventListener("input", () => {
-    chooseSection.value = '';
+    var el = document.createElement("option");
+    el.textContent = "Choose section";
+    el.value = "";
+    el.setAttribute("disabled", "");
+    el.setAttribute("selected", "");
+    
+    chooseSection.innerHTML = '';
+    chooseSection.appendChild(el);
 });
 
 // ---------- set section options based on chapter ----------
@@ -85,6 +94,8 @@ chooseChapter.addEventListener("input", () => {
     var el = document.createElement("option");
     el.textContent = "Choose section";
     el.value = "";
+    el.setAttribute("disabled", "");
+    el.setAttribute("selected", "");
     
     chooseSection.innerHTML = '';
     chooseSection.appendChild(el);
