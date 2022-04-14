@@ -1688,6 +1688,1091 @@ const quizData = [
         section: '4 Lediga jobb',
         english: 'Best regards',
         swedish: 'vänliga hälsningar'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Country home',
+        swedish: 'landställe'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Charming',
+        swedish: 'charmig'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Cottage',
+        swedish: 'stuga'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'View',
+        swedish: 'utsikt'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Closest',
+        swedish: 'närmaste'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Barbeque',
+        swedish: 'grilla'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Go boating',
+        swedish: 'åka båt'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Barefoot',
+        swedish: 'barfota'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Rest',
+        swedish: 'vila'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Sunny',
+        swedish: 'solig'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Freedom',
+        swedish: 'frihet'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Soured milk',
+        swedish: 'filmjölk'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Blueberries',
+        swedish: 'blåbär'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Fantasy, dream',
+        swedish: 'fantasi'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Paint',
+        swedish: 'måla'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Renovate',
+        swedish: 'renovera'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Grass',
+        swedish: 'gräs'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Mow the lawn',
+        swedish: 'klippa gräs'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Chop',
+        swedish: 'hugga'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Wood',
+        swedish: 'ved'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'A lot',
+        swedish: 'en massa'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Fight, argue',
+        swedish: 'bråka'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Holiday home',
+        swedish: 'fritidshus'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Exclusive',
+        swedish: 'exklusiv'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Own',
+        swedish: 'äga'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Increase',
+        swedish: 'ökning'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Statistics',
+        swedish: 'statistik'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Factor',
+        swedish: 'faktor'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Number',
+        swedish: 'numrera'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Patio',
+        swedish: 'uteplats'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '1 Drömmen om ett landställe',
+        english: 'Distance',
+        swedish: 'avstånd'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Invitation',
+        swedish: 'inbjudan'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Wonder',
+        swedish: 'undra'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Bedsheets',
+        swedish: 'lakan'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Direct speech',
+        swedish: 'direkt tal'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Indirect speech',
+        swedish: 'indirekt tal'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'For lunch',
+        swedish: 'till lunch'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Oral',
+        swedish: 'muntlig'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Car ferry',
+        swedish: 'bilfärja'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Umberella',
+        swedish: 'paraply'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Look for',
+        swedish: 'titta efter'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Twice an hour',
+        swedish: 'två gånger i timmen'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Blow (the wind)',
+        swedish: 'blåsa'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Seagull',
+        swedish: 'mås'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'A short distance',
+        swedish: 'en bit'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Remaining',
+        swedish: 'kvar'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Ferry landing',
+        swedish: 'färjeläge'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Gravel road',
+        swedish: 'grusväg'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Glitter, shine',
+        swedish: 'glittra'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'To park',
+        swedish: 'att parkera'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Step out',
+        swedish: 'kliva ur'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Repaint',
+        swedish: 'måla om'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Outhouse',
+        swedish: 'dass'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Toilet',
+        swedish: 'toalett'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Heart',
+        swedish: 'hjärta'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Door',
+        swedish: 'dörr'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Shower',
+        swedish: 'dusch'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Degree',
+        swedish: 'grad'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, första',
+        english: 'Snaps, flavored vodka',
+        swedish: 'nubbe'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'The whole',
+        swedish: 'helan'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'The half',
+        swedish: 'halvan'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Cheers',
+        swedish: 'skål'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'String',
+        swedish: 'snöre'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'In the throat',
+        swedish: 'i halsen'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Up and down',
+        swedish: 'upp och ner'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Many more',
+        swedish: 'många fler'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Drinking song',
+        swedish: 'snapsvisa'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Every year',
+        swedish: 'varje år'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Arrange',
+        swedish: 'arrangera'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Spirits, alcohol',
+        swedish: 'sprit'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Championship',
+        swedish: 'mästerskap'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Have a backache',
+        swedish: 'ont i ryggen'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'While',
+        swedish: 'medan'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Chanterelles',
+        swedish: 'kantarell'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Smell',
+        swedish: 'lukta'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Annoyed',
+        swedish: 'sur'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Place',
+        swedish: 'ställe'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Pie',
+        swedish: 'paj'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Custard',
+        swedish: 'vaniljsås'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Shoot',
+        swedish: 'skjuta'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Hunting friends',
+        swedish: 'jaktkompis'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Freeze, be cold',
+        swedish: 'frysa'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Sauna',
+        swedish: 'bastu'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Naked',
+        swedish: 'naken'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Relative',
+        swedish: 'relativ'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '2 Sara och Brian på landet, andra',
+        english: 'Happen',
+        swedish: 'hända'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '3 På middag',
+        english: 'Thank you for a nice evening',
+        swedish: 'tack för ikväll!'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '3 På middag',
+        english: 'Help yourselves',
+        swedish: 'ta för er'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '3 På middag',
+        english: 'Recipe',
+        swedish: 'recept'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '3 På middag',
+        english: 'Toast',
+        swedish: 'skåla'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '3 På middag',
+        english: 'Living room',
+        swedish: 'vardagsrum'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '3 På middag',
+        english: 'Go home',
+        swedish: 'dra sig hemåt'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '3 På middag',
+        english: 'Compliment',
+        swedish: 'komplimang'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '3 På middag',
+        english: 'Cool',
+        swedish: 'cool'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '4 Therese tipsar',
+        english: 'Party',
+        swedish: 'kalas'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '4 Therese tipsar',
+        english: 'Column',
+        swedish: 'kolumn'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '4 Therese tipsar',
+        english: 'Common sense',
+        swedish: 'vett'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '4 Therese tipsar',
+        english: 'Etiquette, manners',
+        swedish: 'etikett'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '4 Therese tipsar',
+        english: 'Reader',
+        swedish: 'läsare'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '4 Therese tipsar',
+        english: 'Tip',
+        swedish: 'tipsa'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '4 Therese tipsar',
+        english: 'Outdoor shoe',
+        swedish: 'yttersko'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '4 Therese tipsar',
+        english: 'Indoor shoe',
+        swedish: 'innesko'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '4 Therese tipsar',
+        english: 'Hostess',
+        swedish: 'värdinna'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '4 Therese tipsar',
+        english: 'Thanks for a nice evening',
+        swedish: 'tack för senast'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '4 Therese tipsar',
+        english: 'Rule of etiquette',
+        swedish: 'etikettsregel'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Launch event',
+        swedish: 'kickoff'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Wedding',
+        swedish: 'bröllop'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: "children's party",
+        swedish: 'barnkalas'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Housewarming party',
+        swedish: 'inflyttningsfest'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Class party',
+        swedish: 'klassfest'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Potluck',
+        swedish: 'knytis'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Barbeque party',
+        swedish: 'grillfest'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Dress to the weather',
+        swedish: 'kläder efter väder'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Wedding ceremony',
+        swedish: 'vigsel'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Take place',
+        swedish: 'äga'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Party venue',
+        swedish: 'festvåning'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Wish list, registry',
+        swedish: 'önskelista'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Gift store',
+        swedish: 'presentshopp'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Light',
+        swedish: 'tända'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Rounders',
+        swedish: 'brännboll'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Rounders tournament',
+        swedish: 'brännbollsturnering'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Soccer, football field',
+        swedish: 'fotbollsplan'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Picnic',
+        swedish: 'picknick'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Gymnasium',
+        swedish: 'gymnastiksal'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Halfway',
+        swedish: 'halvvägs'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Dance shoe',
+        swedish: 'danssko'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Celebrate',
+        swedish: 'fira'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Buffet',
+        swedish: 'buffé'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Because',
+        swedish: 'eftersom'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Hope',
+        swedish: 'hoppas'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Great day',
+        swedish: 'toppendag'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Newborn',
+        swedish: 'nyfödd'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Of course',
+        swedish: 'såklart'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Miss',
+        swedish: 'missa'
+    },
+    { 
+        book: 'Rivstart A1-A2',
+        chapter: '14',
+        section: '5 Fester och annat',
+        english: 'Should, must',
+        swedish: 'bör'
+    },
+    { // check from here --------------------------
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To ask',
+        swedish: 'att be'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To die',
+        swedish: 'att dö'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To get',
+        swedish: 'att få'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To give',
+        swedish: 'att ge'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To go',
+        swedish: 'att gå'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To do',
+        swedish: 'att göra'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To have',
+        swedish: 'att ha'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To be called',
+        swedish: 'att heta'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To be able to',
+        swedish: 'att kunna'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To smile',
+        swedish: 'att le'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To lay',
+        swedish: 'att lägga'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To be forced',
+        swedish: 'att vara tvungen'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To see',
+        swedish: 'att se'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'Will',
+        swedish: 'skola'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To stand',
+        swedish: 'att stå'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To say',
+        swedish: 'att säga'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To sell',
+        swedish: 'att sälja'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To be',
+        swedish: 'att vara'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To know',
+        swedish: 'att veta'
+    },
+    { 
+        book: 'Common Swedish verbs',
+        chapter: '1',
+        section: 'Irregular verbs',
+        english: 'To want',
+        swedish: 'att vilja'
     }
 ];
 
