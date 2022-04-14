@@ -42,9 +42,9 @@ function shuffle(array) {
 
 shuffle(quizArr);
 
-// ---------- take the first 10 elements of the shuffled array to run the random quiz ----------
+// ---------- randomly sort the shuffled array, then take the first 10 elements to run the random quiz ----------
 
-let randomQuiz = quizArr.slice(0, 10);
+let randomQuiz = quizArr.sort(() => .5 - Math.random()).slice(0,10);
 
 // ---------- upon page load, load quiz with the shuffled array starting at question counter number ---------- 
 
