@@ -2442,7 +2442,7 @@ const quizData = [
         book: 'Rivstart A1-A2',
         chapter: '14',
         section: '5 Fester och annat',
-        english: "children's party",
+        english: "Children's party",
         swedish: 'barnkalas'
     },
     { 

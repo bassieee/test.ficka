@@ -15,6 +15,18 @@ let quizArr = mainArr.filter( function(el) {
             el.section === selectedSection;
 });
 
+// ---------- redirect to index.html if the user lands directly onto a quiz page ---------- 
+
+function redirect() {
+    if (selectedBook !== null) {
+        // do nothing
+    } else {
+        window.location = "https://bassieee.github.io/test.ficka/"
+    };
+};
+
+redirect();
+
 // ---------- get html elements ---------- 
 
 const refreshButton = document.getElementById('backToFilter');
