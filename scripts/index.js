@@ -23,11 +23,11 @@ refreshFilter.addEventListener("click", () => {
 });
 
 aboutPage.addEventListener("click", () => {
-    window.location = "https://ficka.io/html/about.html";
+    window.location = "https://bassieee.github.io/test.ficka/html/about.html";
 });
 
 randomQuiz.addEventListener("click", () => {
-    window.location = "https://ficka.io/html/random-quiz.html";
+    window.location = "https://bassieee.github.io/test.ficka/html/random-quiz.html";
 });
 
 // ---------- load book options, always done on page load ----------
@@ -147,7 +147,7 @@ startButton.addEventListener("click", () => {
         mistake.innerHTML = "First set filters &#128520";
         mistake.style.animation = "0.4s mistake";
     } else {
-        window.location = "https://ficka.io/html/normal-quiz.html";
+        window.location = "https://bassieee.github.io/test.ficka/html/normal-quiz.html";
     }
 });
 
