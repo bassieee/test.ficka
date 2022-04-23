@@ -65,7 +65,7 @@ submitBtn.addEventListener("click", () => {
 });
 
 refreshButton.addEventListener("click", () => {
-    window.location = "https://ficka.io";
+    window.location = "https://bassieee.github.io/test.ficka/";
 });
 
 ansEl.addEventListener("keypress", (event) => {
@@ -126,5 +126,5 @@ ansEl.addEventListener('animationend', () => {
 });
 
 buttonDone.addEventListener("click", () => {
-    window.location = "https://ficka.io";
+    window.location = "https://bassieee.github.io/test.ficka/";
 });
