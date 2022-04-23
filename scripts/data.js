@@ -1434,7 +1434,7 @@ const quizData = [
         book: 'Rivstart A1-A2',
         chapter: '13',
         section: '4 Lediga jobb',
-        english: 'babysitter',
+        english: 'Babysitter',
         swedish: 'barnvakt'
     },
     { 

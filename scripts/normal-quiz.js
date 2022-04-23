@@ -21,7 +21,7 @@ function redirect() {
     if (selectedBook !== null) {
         // do nothing
     } else {
-        window.location = "https://bassieee.github.io/test.ficka/"
+        window.location = "https://ficka.io"
     };
 };
 
@@ -67,13 +67,13 @@ shuffle(quizArr);
 // ---------- upon page load, load quiz with the shuffled array starting at question counter number ---------- 
 
 function loadQuiz() {
-    const currentQuizData = quizArr[currentQuiz];
+    const currentQuizData = quizArr[currentQuiz]; // currentQuiz is the question counter. It starts at 0 to get the first object, then increments by 1 after each question
 
     questionEl.innerText = currentQuizData.english;
+    // line above is where the error is generated
     
     counter.innerText = (currentQuiz + 1) + "/" + quizArr.length;
 };
-
 loadQuiz();
 
 // ---------- different ways to submit answers ---------- 
@@ -83,7 +83,7 @@ submitBtn.addEventListener("click", () => {
 });
 
 refreshButton.addEventListener("click", () => {
-    window.location = "https://bassieee.github.io/test.ficka/";
+    window.location = "https://ficka.io";
 });
 
 ansEl.addEventListener("keypress", (event) => {
@@ -144,5 +144,5 @@ ansEl.addEventListener('animationend', () => {
 });
 
 buttonDone.addEventListener("click", () => {
-    window.location = "https://bassieee.github.io/test.ficka/";
+    window.location = "https://ficka.io";
 });

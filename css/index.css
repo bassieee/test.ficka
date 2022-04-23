@@ -40,6 +40,17 @@ body {
     cursor: pointer;
 }
 
+#aboutPage {
+    background: transparent;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#aboutPage:hover {
+    cursor: pointer;
+}
+
 #generateRandom {
     padding: 4px;
     border: none;

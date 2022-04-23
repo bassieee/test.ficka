@@ -7,11 +7,21 @@
         <link rel="stylesheet" href="css/index.css" />
         <script type="module" src="scripts/index.js" defer></script>
         <title>Ficka, pocket learning</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KTS181RZJD"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-KTS181RZJD');
+        </script>
     </head>
 
     <body>
         <div class="filterClass">
             <button id="refreshFilter">Refresh</button>
+            <button id="aboutPage">ABOUT</button>
             <button id="generateRandom">Random quiz</button>
         </div> 
         <div class="filter-container">

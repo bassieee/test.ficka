@@ -8,6 +8,7 @@ let filterArr = mainArr;
 // ---------- get html elements ---------- 
 
 const refreshFilter = document.getElementById('refreshFilter');
+const aboutPage = document.getElementById('aboutPage');
 const randomQuiz = document.getElementById('generateRandom');
 const chooseBook = document.getElementById('chooseBook');
 const chooseChapter = document.getElementById('chooseChapter');
@@ -21,8 +22,12 @@ refreshFilter.addEventListener("click", () => {
     location.reload();
 });
 
+aboutPage.addEventListener("click", () => {
+    window.location = "https://ficka.io/html/about.html";
+});
+
 randomQuiz.addEventListener("click", () => {
-    window.location = "https://bassieee.github.io/test.ficka/html/random-quiz.html"
+    window.location = "https://ficka.io/html/random-quiz.html";
 });
 
 // ---------- load book options, always done on page load ----------
@@ -142,7 +147,7 @@ startButton.addEventListener("click", () => {
         mistake.innerHTML = "First set filters &#128520";
         mistake.style.animation = "0.4s mistake";
     } else {
-        window.location = "https://bassieee.github.io/test.ficka/html/normal-quiz.html";
+        window.location = "https://ficka.io/html/normal-quiz.html";
     }
 });
 

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+        <link rel="stylesheet" href="../css/about.css" />
+        <script type="module" src="" defer></script>
+        <title>Ficka, pocket learning</title>
+    </head>
+
+    <body>
+        <section id="mainSection">
+            <div class="backBtnDiv">
+                <button id="backToFilter" onclick="window.location.href='https://ficka.io';">&#8634 back to filter</button>
+            </div> 
+            <video id="background-video" autoplay loop muted poster="https://res.cloudinary.com/ficka/image/upload/v1650457836/ficka-about/about-video-background-placeholder_sqsjxs.png">
+                <source src="https://res.cloudinary.com/ficka/video/upload/v1650457845/ficka-about/about-video-background_lxu538.mp4" type="video/mp4">
+            </video>
+            <div id="aboutText">
+                <h1>Take your course anywhere</h1>
+                <p id="actualAboutTxt">There are many pocket learning apps to teach you all sorts of things. However none of them teach you things that fit the specific curriculum you are already on.<br><br>
+                    You might be in school, in university getting a degree or taking some online course. The idea of ficka.io is to give you a mobile first, modern interface, to practice things relevant to the learning plan made by your teacher or institution.<br><br>  
+                    Right now, you can use it to practice Swedish words for your A1-A2 course at Folkuniversitetet. Soon, the platform might grow to a variety of subjects, and make use of games and algorithms to support better learning.</p>
+                <button id="firstBtn" onclick="window.location.href='https://ficka.io';">Start practicing</button>
+            </div>
+        </section>
+        <section id="secondarySection">
+            <h2>Share an idea or feedback?</h2>
+            <div id="sendMessage">
+                <p class="formTitle">Send a message</p>
+                <form class="contact-form" action="https://formspree.io/f/xeqnrwna" method="post">
+                    <input type="text" name="name" placeholder="Your name" required><br>
+                    <input type="email" name="mail" placeholder="Your email" required><br>
+                    <div id="textAreaDiv">
+                        <textarea name="message" placeholder="Message" required></textarea><br>
+                    </div>
+                    <button class="sendMsgBtn" type="submit" name="submit">Send</button>
+                </form>
+            </div>
+            <div id="gameBackground"></div>
+        </section>
+        <section id="thirdSection">
+            <h2>Start learning</h2>
+            <div id="finalBtnDiv">
+                <button class="startAQuiz" onclick="window.location.href='https://ficka.io';">Choose what to learn</button>
+                <button class="startAQuiz" onclick="window.location.href='https://ficka.io/html/random-quiz.html';">Launch a random quiz</button>
+            </div>
+        </section>
+    </body>
+
+    <footer id="footer">
+        <section id="footerSection">
+            <p>&#129488 This is a non-commercial, Beta version, web application intended for a specific audience only.</p>
+        </section>
+    </footer>
+    <script>
+        const pElement = document.getElementById('actualAboutTxt');
+        const style = window.getComputedStyle(pElement, null).getPropertyValue('font-size');
+        var fontSize = parseFloat(style);
+
+        function decrementFont () {
+            if(pElement.scrollHeight > (window.innerHeight * 0.30) && pElement.scrollHeight < (window.innerHeight * 0.42)) {
+                return;
+            } else if (pElement.scrollHeight > (window.innerHeight * 0.42)) {
+                pElement.style.fontSize = (--fontSize) + "px";
+                decrementFont();
+            } else if (pElement.scrollHeight < (window.innerHeight * 0.35)) {
+                pElement.style.fontSize = (++fontSize) + "px";
+                decrementFont();
+            };
+        };
+
+        addEventListener("load", () => {
+            decrementFont();
+        });
+
+        addEventListener("resize", () => {
+            decrementFont();
+        });
+    </script>
+</html>
