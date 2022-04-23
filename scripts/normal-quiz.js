@@ -25,7 +25,7 @@ function redirect() {
     };
 };
 
-redirect();
+// redirect();
 
 // ---------- get html elements ---------- 
 
