@@ -52,18 +52,6 @@ function shuffle(array) {
 
 shuffle(quizArr);
 
-// ---------- upon page load, load quiz with the shuffled array starting at question counter number ---------- 
-
-function loadQuiz() {
-    const currentQuizData = quizArr[currentQuiz]; 
-
-    questionEl.innerText = currentQuizData.english;
-    
-    counter.innerText = (currentQuiz + 1) + "/" + quizArr.length;
-};
-
-loadQuiz();
-
 // ---------- redirect to index.html if the user lands directly onto a quiz page ---------- 
 
 function redirect() {
@@ -75,6 +63,18 @@ function redirect() {
 };
 
 redirect();
+
+// ---------- upon page load, load quiz with the shuffled array starting at question counter number ---------- 
+
+function loadQuiz() {
+    const currentQuizData = quizArr[currentQuiz]; 
+
+    questionEl.innerText = currentQuizData.english;
+    
+    counter.innerText = (currentQuiz + 1) + "/" + quizArr.length;
+};
+
+loadQuiz();
 
 // ---------- different ways to submit answers ---------- 
 
