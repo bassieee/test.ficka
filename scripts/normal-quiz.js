@@ -15,18 +15,6 @@ let quizArr = mainArr.filter( function(el) {
             el.section === selectedSection;
 });
 
-// ---------- redirect to index.html if the user lands directly onto a quiz page ---------- 
-
-function redirect() {
-    if (selectedBook !== null) {
-        // do nothing
-    } else {
-        window.location = "https://bassieee.github.io/test.ficka/"
-    };
-};
-
-// redirect();
-
 // ---------- get html elements ---------- 
 
 const refreshButton = document.getElementById('backToFilter');
@@ -67,14 +55,26 @@ shuffle(quizArr);
 // ---------- upon page load, load quiz with the shuffled array starting at question counter number ---------- 
 
 function loadQuiz() {
-    const currentQuizData = quizArr[currentQuiz]; // currentQuiz is the question counter. It starts at 0 to get the first object, then increments by 1 after each question
+    const currentQuizData = quizArr[currentQuiz]; 
 
     questionEl.innerText = currentQuizData.english;
-    // line above is where the error is generated
     
     counter.innerText = (currentQuiz + 1) + "/" + quizArr.length;
 };
+
 loadQuiz();
+
+// ---------- redirect to index.html if the user lands directly onto a quiz page ---------- 
+
+function redirect() {
+    if (selectedBook !== null) {
+        // do nothing
+    } else {
+        window.location = "https://bassieee.github.io/test.ficka/"
+    };
+};
+
+redirect();
 
 // ---------- different ways to submit answers ---------- 
 
