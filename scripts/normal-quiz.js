@@ -67,10 +67,10 @@ loadQuiz();
 // ---------- redirect to index.html if the user lands directly onto a quiz page ---------- 
 
 function redirect() {
-    if (questionEl.innerText !== '') {
-        // do nothing
-    } else {
+    if (quizArr[currentQuiz] === '') {
         window.location = "https://bassieee.github.io/test.ficka/"
+    } else {
+        // do nothing
     };
 };
 
