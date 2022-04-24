@@ -55,7 +55,7 @@ shuffle(quizArr);
 // ---------- redirect to index.html if the user lands directly onto a quiz page ---------- 
 
 function redirect() {
-    if (quizArr[currentQuiz] === '') {
+    if (quizArr[currentQuiz] == undefined) {
         window.location = "https://bassieee.github.io/test.ficka/"
     } else {
         // do nothing
